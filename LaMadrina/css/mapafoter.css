@@ -1,0 +1,86 @@
+.contenerMap{
+    height: 300px ;
+}
+
+.mapaIf{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 60px;
+    background: black;
+    color: white;
+}
+footer .fuderclas li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 130px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.fuderclas:hover{
+    color: #f28e1c;
+    transition: color .3s ease, color .3s ease;
+}
+@media (max-width:1500px) and (min-width:1200px)
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 60px 0px 60px;
+        font-size: 10px;
+    }
+}
+@media (max-width:1200px) and (min-width:1000px)
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 40px 0px 50px;
+        font-size: 10px;
+    }
+}
+@media (max-width:1000px) and (min-width:800px)
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 25px 0px 30px;
+        font-size: 10px;
+    }
+}
+@media (max-width:800px) and (min-width:650px)
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 15px 0px 15px;
+        font-size: 10px;
+    }
+}
+@media (max-width:650px) and (min-width:500px)
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 10px 0px 10px;
+        font-size: 8px;
+    }
+}
+@media (max-width:500px) 
+{
+    footer .fuderclas li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 3px 0px 1px;
+        font-size: 5px;
+    }
+    .contenerMap{
+        height: 150px ;
+    }
+    footer{
+        height: 40px;
+        background: black;
+        color: white;
+    }
+}
